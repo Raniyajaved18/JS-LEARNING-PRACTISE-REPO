@@ -53,3 +53,25 @@
 // console.log(name);   // Raniya
 // console.log(others); // { age: 21, city: "Delhi", country: "India" }
 
+// NOW WHAT IS ARRAY DESTRUCTURING?
+
+// const numbers = [10, 20, 30];
+//
+// // Traditional way
+// const first = numbers[0];
+// const second = numbers[1];
+// console.log(first, second); // 10 20
+//
+// // Using destructuring
+// const [a, b] = numbers;
+// console.log(a, b); // 10 20
+
+// 📍 Skipping Values
+
+// const numbers = [10, 20, 30, 40];
+// 
+// const [first, , third] = numbers; 
+// console.log(first, third); // 10 30
+
+
+
