@@ -1,0 +1,85 @@
+/*A simple CSS stylesheet for a basic card layout*/
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 20px;
+    background: #f5f6fa;
+    color:#222;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: white;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow:  0 6px 18px rgba(0,0,0,0.06);
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.buttons button {
+    margin: 4px 6px 8px 0;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor:pointer;
+}
+
+.buttons button:hover {
+    opacity:0.9;
+}
+
+.info{
+    padding: 10px;
+    background: #f5f5f7; 
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.error {
+    color: #a33; 
+    border: 1px solid #f1c; 
+    background: #fff0f0; 
+    padding: 8px; 
+    border-radius: 6px;
+}
+
+ul { 
+    padding-left: 20px; 
+}
+
+.alt-theme { 
+    background: #1f2937; 
+    color: #f3f4f6; 
+}
+
+.alt-theme .card { 
+    background: #111827; 
+    box-shadow: none; 
+    color: #e7e7e7; 
+}
+
+/* GREETING STARTS VISIBLE */
+#greeting {
+    opacity: 1;
+    transition: opacity 1s ease; /* fade effect in 1 sec */
+    display: block; 
+}
+
+/* faded state */
+.fade-out {
+    opacity: 0;
+}
